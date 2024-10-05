@@ -1,0 +1,85 @@
+.gradient-background {
+    background: linear-gradient(300deg, #F5F5F5, #48CFCB, #229799);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .profile-img {
+    border-radius: 100px;
+  }
+
+  h1, h2, h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 450 !important;
+  }
+
+
+.combo {
+    width: 350px !important;
+    height: 300px !important;
+}
+
+.combo img {
+    object-fit: cover !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    border-radius: 10%;
+    height: 200px !important;
+}
+
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.prevwork {
+    background-color:rgb(247, 237, 224) !important;
+}
+
+.label {
+    font-weight: 700 !important;
+}
+
+#certificates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(247, 237, 224);
+}
+
+#certificates img {
+    margin-bottom: 50px;
+}
+
+#top-cert {
+    margin-top: 50px;
+}
+
+.disco-title {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.disco-img {
+    max-width: 100%;
+}
+
+.home-link {
+    margin-bottom: 80px;
+    margin-top: 0px !important;
+}
+
